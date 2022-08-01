@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test":  "vitest --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "vitest": "^0.19.1"
   }
 }
